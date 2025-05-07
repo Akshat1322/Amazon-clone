@@ -8,5 +8,29 @@
 .navbar{
     height: 60px;
     background: #0f1111;
-    color: white;
+    color: rgb(255, 240, 240);
+}
+
+.nav-logo{
+    height: 50px;
+    width: 50px;
+    
+} 
+
+.logo{
+    background-image: url("Amazon-Logo-31.webp"); 
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(255, 240, 240);
+    border-radius: 5px;
 }
